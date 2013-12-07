@@ -1,0 +1,44 @@
+{
+  "name": "insider",
+  "author": "hustcer",
+  "public": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "http://traceinvest.com",
+  "description": "A nodeJs module for querying US Stock insider tradings",
+  "contributors": [
+    {
+      "name": "hustcer",
+      "email": "hustcer(at)gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node insider.js",
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hustcer/insider"
+  },
+  "keywords": [
+    "nodejs",
+    "traceinvest",
+    "insider trading",
+    "stock"
+  ],
+  "dependencies": {
+    "async": "~0.2.9",
+    "colors": "~0.6.2",
+    "lodash": "~2.4.1",
+    "i18next": "~1.7.1",
+    "request": "~2.28.0",
+    "cli-table": "~0.2.0",
+    "commander": "~2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2"
+  }
+}
