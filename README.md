@@ -5,7 +5,7 @@ inq is a CLI tool to query U.S. stock insider tradings.
 
 ## Install
 
-- First you should have [node.js](http://nodejs.org)(v0.10.0 or later) installed.
+- First you should have [node.js](http://nodejs.org/download/)(v0.10.0 or later) installed.
 - Then install <code>inq</code> by: <code>sudo npm install -g inq</code>.
 
 ## Usage
