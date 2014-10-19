@@ -29,16 +29,21 @@ var month, symbols;
 
 if(cmd.time){
     month = parseInt(cmd.time);
-    month = month < 0 ? 0:month;
-    month = month > 5 ? 5:month;
+
+    if(isNaN(month)){
+        console.error("\nInvalid time span, use default time span of '3m' instead.\n".red);
+        month = 3;
+    }else{
+        month = month < 0 ? 0:month;
+        month = month > 5 ? 5:month;
+    }
 }else{
     // Query insider tradings of latest 3 months by default.
     month = 3;
 }
 
-if(cmd.symbol){
-    symbols = cmd.symbol.split(',');
-}
+symbols = cmd.symbol ? cmd.symbol.split(',') : '';
+
 
 if(cmd.args.length > 0 ){
     if(cmd.args.length === 1 && cmd.args[0].indexOf(',') > 0){
