@@ -44,7 +44,6 @@ if(cmd.time){
 
 symbols = cmd.symbol ? cmd.symbol.split(',') : '';
 
-
 if(cmd.args.length > 0 ){
     if(cmd.args.length === 1 && cmd.args[0].indexOf(',') > 0){
         symbols = cmd.args[0].split(',');
