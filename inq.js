@@ -12,7 +12,7 @@ var query   = require('./lib/index.js');
 cmd
   .version('0.1.0')
   .option('-s, --symbol  <symbols>', 'Symbol list to query, separated by comma.')
-  .option('-t, --time    <span>'   , 'Insider trading time span, should be one of:1m, 2m, 3m, 4m, or 5m.')
+  .option('-t, --time    <span>'   , 'Insider trading time span, should be one of: 1m, 2m, 3m, 4m, or 5m.')
   .on('--help', function(){
     console.log('  Usage Examples:'.magenta);
     console.log('');
