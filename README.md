@@ -16,9 +16,12 @@ Options:
 
 Usage Examples:
 
-  inq aapl,yhoo                   , Query insider trading of aapl and yhoo in latest 3 months(default).
-  inq -s aapl,yhoo                , Query insider trading of aapl and yhoo.
-  inq -s aapl,yhoo -t 2m          , Query insider trading of aapl and yhoo in latest 2 months.
-  inq --symbol aapl,yhoo          , Query insider trading of aapl and yhoo.
-  inq --symbol aapl --time 5m     , Query insider trading of aapl in latest 5 months.
+  inq aapl,yhoo               , Query insider trading of aapl and yhoo in latest 3 months(default).
+  inq -s aapl,yhoo            , Query insider trading of aapl and yhoo.
+  inq -s aapl,yhoo -t 2m      , Query insider trading of aapl and yhoo in latest 2 months.
+  inq --symbol aapl,yhoo      , Query insider trading of aapl and yhoo.
+  inq --symbol aapl --time 5m , Query insider trading of aapl in latest 5 months.
+
 ```
+
+## Demo
