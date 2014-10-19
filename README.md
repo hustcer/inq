@@ -6,7 +6,7 @@ inq is a CLI tool to query U.S. stock insider tradings.
 ## Install
 
 - First you should have [node.js](http://nodejs.org)(0.10.0 or later) installed.
-- Install inq by: <code>sudo npm install -g inq</code>
+- Install <code>inq</code> by: <code>sudo npm install -g inq</code>
 
 ## Usage
 
@@ -34,4 +34,4 @@ Usage Examples:
 
 ## Issues
 
-Tell me if you have any questions by submit an [issue](https://github.com/hustcer/inq/issues/new)
+Tell me if you have any questions, please submit an issue [here](https://github.com/hustcer/inq/issues/new).
