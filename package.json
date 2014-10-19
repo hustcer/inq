@@ -30,6 +30,7 @@
   ],
   "dependencies": {
     "async": "~0.9.0",
+    "bluebird": "^2.3.6",
     "cli-table": "~0.3.0",
     "colors": "~1.0.3",
     "commander": "~2.4.0",
