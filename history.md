@@ -8,7 +8,7 @@
 
 ### v0.1.5
 
-- [10.20] Display help when there is no output or args provided.
+- [10.20] Display help when there is no input or args provided.
 
 ----------------------------------------------------------------
 @2014/10/20 HZ
