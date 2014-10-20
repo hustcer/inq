@@ -1,3 +1,11 @@
+### v0.1.6
+
+- [10.21] Add prettyLog and jsonLog conf.
+
+----------------------------------------------------------------
+@2014/10/21 HZ
+
+
 ### v0.1.5
 
 - [10.20] Display help when there is no output or args provided.

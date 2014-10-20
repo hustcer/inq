@@ -6,18 +6,18 @@
     },
     "rules": {
         "semi": 1,
-        "curly": 0,
+        "curly": 1,
         "eqeqeq": 1,
         "no-yoda": 0,
         "camelcase": 1,
         "new-parens": 1,
-        "dot-notation": 0,
-        "no-unused-vars": 0,
-        "no-path-concat": 0,
-        "space-infix-ops": 0,
+        "dot-notation": 1,
+        "no-unused-vars": 1,
+        "no-path-concat": 1,
+        "space-infix-ops": 1,
         "no-mixed-requires": 1,
-        "no-space-before-semi": 0,
-        "no-underscore-dangle": 0,
-        "quotes": [0, "single", "avoid-escape"]
+        "no-space-before-semi": 1,
+        "no-underscore-dangle": 1,
+        "quotes": [1, "single", "avoid-escape"]
     }
 }

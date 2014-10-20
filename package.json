@@ -2,7 +2,7 @@
   "name": "inq",
   "author": "hustcer",
   "public": true,
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "homepage": "http://traceinvest.com",
   "description": "A CLI node.js module for querying U.S. Stock insider tradings",
@@ -10,18 +10,21 @@
   "bin": {
       "inq": "./inq"
   },
-  "contributors": [
-    "hustcer <hustcer@gmail.com> (http://topdna.org/)"
-  ],
   "scripts": {
     "start": "node inq"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
+  "contributors": [
+    "hustcer <hustcer@gmail.com> (http://topdna.org/)"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/hustcer/inq"
+  },
+  "bugs": {
+    "url": "https://github.com/hustcer/inq/issues"
   },
   "keywords": [
     "insider",
@@ -39,8 +42,5 @@
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-eslint": "^1.1.0"
-  },
-  "bugs": {
-    "url": "https://github.com/hustcer/inq/issues"
   }
 }
