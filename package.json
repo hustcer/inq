@@ -10,7 +10,7 @@
     "hustcer <hustcer@gmail.com>"
   ],
   "scripts": {
-    "start": "node inq.js"
+    "start": "node inq"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -39,5 +39,5 @@
   "bugs": {
     "url": "https://github.com/hustcer/inq/issues"
   },
-  "main": "inq.js"
+  "main": "inq"
 }
