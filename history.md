@@ -1,6 +1,6 @@
-### v0.1.3
+### v0.1.5
 
-- [10.20] Update inq version to v0.1.3.
+- [10.20] Display help when there is no output or args provided.
 
 ----------------------------------------------------------------
 @2014/10/20 HZ

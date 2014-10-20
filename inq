@@ -54,7 +54,7 @@ if(cmd.args.length > 0){
 }
 
 if(!symbols){
-    console.error('\nPlease input the symbol to query. For example: `inq aapl`\n'.red);
+    cmd.outputHelp();
     return false;
 }
 
