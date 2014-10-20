@@ -2,7 +2,7 @@
   "name": "inq",
   "author": "hustcer",
   "public": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "homepage": "http://traceinvest.com",
   "description": "A CLI node.js module for querying U.S. Stock insider tradings",
