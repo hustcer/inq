@@ -1,7 +1,7 @@
 
 # Inq
 
-inq is a CLI tool for querying U.S. stock insider tradings.
+inq is a CLI tool for U.S. stock INsider trading Query.
 
 ## Install
 
