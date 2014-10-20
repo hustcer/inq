@@ -34,7 +34,7 @@ if(cmd.time){
         console.error("\nInvalid time span, use default time span of '3m' instead.\n".red);
         month = 3;
     }else{
-        month = month < 0 ? 0:month;
+        month = month < 1 ? 1:month;
         month = month > 5 ? 5:month;
     }
 }else{
@@ -44,11 +44,13 @@ if(cmd.time){
 
 symbols = cmd.symbol ? cmd.symbol.split(',') : '';
 
-if(cmd.args.length > 0 ){
-    if(cmd.args.length === 1 && cmd.args[0].indexOf(',') > 0){
+if(cmd.args.length > 0){
+    if(cmd.args.length === 1){
         symbols = cmd.args[0].split(',');
+        symbols = (symbols.length > 7) ? symbols.slice(0, 7) : symbols;
     }else{
-        symbols = cmd.args;
+        console.error('\nCmd input args error! You can try for example: `inq aapl`\n'.red);
+        return false;
     }
 }
 
