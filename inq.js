@@ -2,8 +2,6 @@
 
 "use strict";
 
-var pkg = require('./package.json');
-
 var colors  = require('colors');
 var printf  = require('printf');
 var cmd     = require('commander');
