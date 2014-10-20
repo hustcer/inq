@@ -11,7 +11,7 @@
       "inq": "./inq"
   },
   "contributors": [
-    "hustcer <hustcer@gmail.com>"
+    "hustcer <hustcer@gmail.com> (http://topdna.org/)"
   ],
   "scripts": {
     "start": "node inq"
