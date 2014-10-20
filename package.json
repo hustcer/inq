@@ -7,10 +7,7 @@
   "homepage": "http://traceinvest.com",
   "description": "A CLI node.js module for querying US Stock insider tradings",
   "contributors": [
-    {
-      "name": "hustcer",
-      "email": "hustcer(at)gmail.com"
-    }
+    "hustcer <hustcer@gmail.com>"
   ],
   "scripts": {
     "start": "node inq.js"
@@ -38,5 +35,9 @@
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-eslint": "^1.1.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hustcer/inq/issues"
+  },
+  "main": "inq.js"
 }
