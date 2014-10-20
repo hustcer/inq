@@ -1,0 +1,23 @@
+{
+    "env": {
+        "node": true
+    },
+    "globals": {
+    },
+    "rules": {
+        "semi": 1,
+        "curly": 0,
+        "eqeqeq": 1,
+        "no-yoda": 0,
+        "camelcase": 1,
+        "new-parens": 1,
+        "dot-notation": 0,
+        "no-unused-vars": 0,
+        "no-path-concat": 0,
+        "space-infix-ops": 0,
+        "no-mixed-requires": 1,
+        "no-space-before-semi": 0,
+        "no-underscore-dangle": 0,
+        "quotes": [0, "single", "avoid-escape"]
+    }
+}

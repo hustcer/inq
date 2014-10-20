@@ -1,6 +1,7 @@
-### v0.5.0
+### v0.1.0
 
-- First release of inq.
+- [10.20] First release of inq.
+- [10.20] Add eslint for js source check.
 
 ----------------------------------------------------------------
 @2014/10/19 HZ.SBUX
