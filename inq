@@ -59,4 +59,3 @@ if(!symbols){
 }
 
 query.queryInsiderOf(symbols, month);
-

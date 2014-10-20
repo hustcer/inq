@@ -1,3 +1,4 @@
+
 'use strict';
 /**
  * Date      : 2014/10/20
@@ -17,7 +18,7 @@ module.exports = function(grunt) {
           config: 'eslint.json'
         },
         files: {
-          src: ['Gruntfile.js', 'inq.js', 'lib/**/*.js']
+          src: ['Gruntfile.js', 'inq', 'lib/**/*.js']
         }
       }
     }
