@@ -32,6 +32,8 @@ Usage Examples:
 
 ## Demo Output
 
+![Inq stock insider trading query output demo](./output.png)
+
 ## Issues
 
 Tell me if you have any questions, please submit an issue [here](https://github.com/hustcer/inq/issues/new).
