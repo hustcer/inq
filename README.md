@@ -1,4 +1,7 @@
 
+### [Gratipay <img height="20px" src="https://raw.githubusercontent.com/gratipay/gratipay.com/master/www/assets/%25version/gratipay.opengraph.png" style="max-width:100%;">](https://gratipay.com/hustcer/)
+
+
 # Inq
 
 inq is a CLI tool for U.S. stock INsider trading Query.

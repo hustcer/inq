@@ -5,7 +5,7 @@
   "version": "0.1.6",
   "license": "MIT",
   "homepage": "http://traceinvest.com",
-  "description": "A CLI node.js module for querying U.S. Stock insider tradings",
+  "description": "A CLI tool for U.S. stock insider trading query.",
   "main": "inq",
   "bin": {
       "inq": "./bin/inq"
