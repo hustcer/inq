@@ -6,15 +6,15 @@
 
 inq is a CLI tool for U.S. stock INsider trading Query.
 
-## Install Inq
+## Install
 
 - First you should have [node.js](http://nodejs.org/download/)(v0.10.0 or later) installed.
 - Then install <code>inq</code> by: <code>sudo npm install -g inq</code>.
 
 
-## Update Inq
+## Update
 
-- We strongly recommend you keep your <code>inq</code> update to date for a better user experience. To update <code>inq</code> is quite simple:
+- We strongly recommend you keep your <code>inq</code> up to date for a better user experience. Update <code>inq</code> is quite simple:
     <code>sudo npm update -g inq</code>
 - If the method above does not work, you can reinstall it by:
     <code>sudo npm un inq -g; sudo npm install inq -g</code>
