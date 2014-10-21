@@ -5,8 +5,8 @@
 var colors  = require('colors');
 var printf  = require('printf');
 var cmd     = require('commander');
-var pkg     = require('./package.json');
-var query   = require('./lib/index.js');
+var pkg     = require('../package.json');
+var query   = require('../lib/index.js');
 
 cmd
   .version(pkg.version)

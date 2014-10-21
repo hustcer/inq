@@ -1,6 +1,7 @@
 ### v0.1.6
 
 - [10.21] Add prettyLog and jsonLog conf.
+- [10.21] Change source file structure.
 
 ----------------------------------------------------------------
 @2014/10/21 HZ

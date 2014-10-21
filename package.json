@@ -8,10 +8,10 @@
   "description": "A CLI node.js module for querying U.S. Stock insider tradings",
   "main": "inq",
   "bin": {
-      "inq": "./inq"
+      "inq": "./bin/inq"
   },
   "scripts": {
-    "start": "node inq"
+    "start": "node ./bin/inq"
   },
   "engines": {
     "node": ">= 0.10.0"
