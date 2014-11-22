@@ -33,14 +33,14 @@
     "stock"
   ],
   "dependencies": {
-    "bluebird": "^2.3.6",
+    "bluebird": "^2.3.11",
     "colors": "~1.0.3",
-    "commander": "~2.4.0",
+    "commander": "~2.5.0",
     "printf": "^0.2.0",
-    "request": "~2.45.0"
+    "request": "~2.48.0"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
-    "grunt-eslint": "^1.1.0"
+    "grunt-eslint": "^2.0.0"
   }
 }
